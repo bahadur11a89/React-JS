@@ -1,9 +1,13 @@
 import React from 'react'
 import Form from './Form'
+import Fullform from './Fullform' 
+import Commentform from './Commentform'
 const App = () => {
   return (
     <>
-     <Form/> 
+    <Commentform/>
+   {/* <Fullform/> */}
+     {/* <Form/>  */}
     </>
   )
 }

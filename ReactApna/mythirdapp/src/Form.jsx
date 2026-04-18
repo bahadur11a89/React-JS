@@ -1,16 +1,21 @@
 import { useState } from "react";
 
 export default function Form() {
-    let [fulName, setfullName] = useState("")
+    const [fullName, setFullName] = useState("");
 
-
-    let handleNameChange = (event) => {
-        setfullNameconsole.log(event.target);
+    const handleNameChange = (event) => {
+        setFullName(event.target.value);
     };
 
     return (
         <form>
-            <input placeholder="Enter your name" type="text" value={fulName} onChange={handleNameChange} />
+            <b>Name:-</b>
+            <input
+                placeholder="Enter your name"
+                type="text"
+                value={fullName}
+                onChange={handleNameChange}
+            />
             <button type="submit">Submit</button>
         </form>
     );
