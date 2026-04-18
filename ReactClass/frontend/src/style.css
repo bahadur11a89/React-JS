@@ -1,0 +1,19 @@
+button{
+    padding: 10px 20px ;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.outer{
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+    margin-top: 10px;
+}
